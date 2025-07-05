@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    background-image: url('images/first-section-bg.jpg');
+
+    color: #333;
+}
+.landing-section{
+    width: 100%;
+    height: 600px;
+    background-image: url('images/first-section-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+.logo img{
+    width: 100px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.header ul li a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+.header ul li a svg{
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.buttons button{
+    padding: 10px 20px;
+    border: none;
+    /* background-color: #CBFFD0; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons .login{
+    background-color: #CBFFD0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.buttons .signup{
+    background-color: #26A69A;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-side{
+    width: 600px;
+    height: auto;
+    padding-left: 50px;
+    text-align: start;
+    margin-bottom: 150px;
+}
+.text-side h1{
+    font-size: 40px;
+    font-weight: 100px;
+    color: #000000;
+}
+.text-side .paragraph p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.hero .image-side img{
+    width: 370px;
+    margin-top: 50px;
+    /* border-radius: 260px 0px 0px 0px; */
+}
+.back-system{
+    z-index: 0;
+    height: 455px;
+    border-radius: 260px 0px 0px 0px;
+    position: relative;
+}
+.system{
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+.applink{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 40px;
+}
+.applink img{
+    width: 100px;
+}
+ .second{
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+
+}
+.second .side-image .with-phone{
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    width: 370px;
+}
+
+.second .side-image .phone{
+    position: absolute;
+    top: 150px;
+    margin: 0;
+    width: 400px;
+}
+.side-cards{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cards{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(2, 150px);
+    grid-gap: 220px;
+}
+.card-header h2{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 30px 0px;
+}
+.card{
+    width: 250px;
+    height: 280px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card-1{
+    background-color: #CBFFD0;
+}
+.card-2{
+    background-color: #26A69A;
+}
+.card-3{
+    background-color: #26A69A;
+}
+.card-4{
+    background-color: #CBFFD0;
+}
+.card-logo img{
+    width: 70px;
+    height: 70px;
+}
+.third-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.lists-1{
+    display: flex;
+    height: 150px;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lists-2{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+.create{
+    padding: 10px 30px;
+    background-color: #CBFFD0;
+    border-radius: 20px;
+}
+.budget{
+    padding: 10px 30px;
+    background-color: #CBFFD0;
+    border-radius: 20px;
+}
+.income{
+     padding: 10px 30px;
+    background-color: #26A69A;
+    border-radius: 20px;
+}
+.report{
+    padding: 10px 30px;
+    background-color: #26A69A;
+    border-radius: 20px;
+}
+.middle-phone{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.middle-phone .join{
+    width: 575px;
+    height: 514px;
+}
+.phone-center{
+    position: absolute;
+    width: 400px;
+    top: -55px;
+}
+.fourth{
+    width: 100%;
+    height: 500px;
+}
+.fourth .side-image img{
+    width: 250px;
+}
+.bottom-image img{
+    position: absolute;
+    right: 0;
+    width: 250px;
+}
+.testimony .card-header{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 2290px;
+    left: 482px;
+}
+.testimony .tcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+
+}
+.test-card{
+    width: 400px;
+    height: 450px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cardt1{
+    margin-left: 20px;
+    background-color: #CBFFD0;
+}
+.cardt3{
+    margin-left: 280px;
+    background-color: #CBFFD0;
+
+}
+.cardt2{
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    background-color: #26A69A;
+}
+.profile-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image img{
+    width: 130px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.profile-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.profile-content p{
+    line-height: 40px;
+}
+.profile-content1{
+    margin-right: 30px;
+}
+.profile-content3{
+    margin-left: 45px;
+}
+.fifth{
+    position: absolute;
+    margin-top: 600px;
+    width: 100%;
+}
+.fifth img{
+    width: 100%;
+    object-fit: cover;
+}
+.sixth{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: #26A69A;
+    top: 4300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-medias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-medias img{
+    width: 70px;
+}
+.contact img{
+    width: 200px;
+}
