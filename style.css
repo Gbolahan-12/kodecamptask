@@ -236,7 +236,9 @@ body {
 }
 .fourth{
     width: 100%;
-    height: 500px;
+    height: 1130px;
+    background-color: white;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
 }
 .fourth .side-image img{
     width: 250px;
@@ -314,15 +316,8 @@ body {
 .profile-content3{
     margin-left: 45px;
 }
-.fifth{
-    position: absolute;
-    margin-top: 600px;
-    width: 100%;
-}
-.fifth img{
-    width: 100%;
-    object-fit: cover;
-}
+
+
 .sixth{
     position: absolute;
     width: 100%;
@@ -341,8 +336,55 @@ body {
     margin-top: 20px;
 }
 .social-medias img{
-    width: 70px;
+    width: 65px;
+}
+.contents .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .contact img{
     width: 200px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.fifth{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 3450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fifth-faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #26A69A;
+    height: 670px;
+    width: 720px;
+    border-radius: 15px;
+}
+.fifth-image img{
+    width: 300px;
+}
+.faq{
+    background-color: #CBFFD0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.faq img{
+    width: 60px;
 }
